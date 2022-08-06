@@ -1,0 +1,76 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    background-color: #868784;
+    color: white;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #043565;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #101935;
+}
+
+#btn, .col-sm-4, .col-sm-5 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-sm-4 {
+    margin-top: 130px;
+}
+
+.fieldset {
+    background-color: white;
+    color: black;
+}
+
+#btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    max-width: 500px;
+    padding: 16px;
+    border-radius: 0;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+.legend1 {
+    margin-bottom: 0px;
+    margin-left: 16px;
+}
+
