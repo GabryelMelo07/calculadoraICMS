@@ -9,7 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style2.css">
     <link rel="shortcut icon" type="image/png" href="../calculadoraICMS/img/favicon.png">
     <script src="js/script.js" defer></script>
 </head>
@@ -33,42 +33,26 @@
     <main class="container" style="margin-top:30px">
 
         <div id="l1" class="row">
-
-            <div class="col-sm-4">
-                <h6>Valor para efeito de seguro:</h6>
-                <input id="valorEfeitoSeguro" type="number">
+        
+            <div id="div1" class="col-sm-5">
+                <h6>Placa no padrão antigo:</h6>
+                <input id="placaAntiga" type="text">
             </div>
-
-            <div class="col-sm-4">
-                <h6>Valor do AD/Valorem do CT-e:</h6>
-                <input id="adValoremCTe" type="number">
-            </div>
-
-            <div id="d3" class="col-sm-4">
-                <h6>Porcentagem do ICMS:</h6>
-                <input id="pctgICMS" type="number">
-            </div>
-
+        
         </div>
-
+        
         <div class="row">
             <div id="btn" class="col-sm-3">
-                <input type="submit" onclick="capturar()">
+                <input type="submit" onclick="toMercosul()">
             </div>
         </div>
-
+        
         <div class="row">
+        
             <div class="col-sm-5">
-                <h6>Valor AD/Valorem Tramontina calculado:</h6>
+                <h6>Placa atualizada no padrão Mercosul:</h6>
                 <fieldset class="fieldset">
-                    <p id="adValoremTramontina"></p>
-                </fieldset>
-            </div>
-            
-            <div class="col-sm-5">
-                <h6>Valor AD/Valorem VBR calculado:</h6>
-                <fieldset class="fieldset">
-                    <p id="adValoremVBR"></p>
+                    <p id="placaNova"></p>
                 </fieldset>
             </div>
         </div>
